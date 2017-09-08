@@ -1,0 +1,18 @@
+<html>
+	<head>
+	<title>Beer-Searching</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css" />
+	</head>
+  <br/>
+  <h1 style="color:#D2691E;text-align:center;size="50px";",>Beer-searching</h1>
+	<body>
+	<script src="javas.js"></script>
+		<div id="frmSearch">
+
+			<p>Names : <input type="text" id="txtSearch"/></p><br>
+			<p>Yeast : <input type="text" id="yeast"/></p>
+			<button id="cmdSearch" class="btn info" onclick="toSearch(document.getElementById('txtSearch').value,document.getElementById('yeast').value)">Search</button>
+		</div>
+		<div id="table_result"></div>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+	background-image: url("img/bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: #F0F8FF;
+	font: 24px Forte;
+	}
+p{
+margin: auto;
+}
+.btn{
+	margin: 25px;
+	border: none;
+	color: white;
+	padding: 14px 28px;
+	}
+.info {background-color: #D2691E;}
+.info:hover {background: #0b7dda;}
+
+
+#txtSearch{
+	padding: 12px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #D2691E;
+    box-sizing: border-box;
+}
+
+
+#frmSearch{
+	margin: 80px auto;
+	text-align: center;
+	background-image: url("img/glass.png");
+	padding:29px;
+	width: 63.5%;
+	height: 23%;
+
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 20px solid #D2691E;
+}
+
+tr:hover{background-image: url("img/glass.png");}
